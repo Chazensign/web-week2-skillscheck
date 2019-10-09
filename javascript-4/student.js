@@ -29,8 +29,7 @@ const me = {
   superPowerXP: function() {
     return Math.floor(Math.random() * 100) + 1},
   profileImage: function () {
-    return 'https://www.ctvnews.ca/polopoly_fs/1.1137230.1359656275!/httpImage/image.jpeg_gen/derivatives/landscape_620/image.jpeg'
-    // return 'https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg'
+    return `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`
   }
 }
 
